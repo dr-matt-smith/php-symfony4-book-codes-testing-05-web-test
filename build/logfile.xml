@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Project Test Suite" tests="8" assertions="8" failures="0" errors="0" time="0.114860">
+    <testsuite name="App\Tests\Controller\DefaultControllerTest" file="/Users/matt/Documents/Books/symfony/php-symfony4-book-codes/part-testing/test05_webtest2/tests/Controller/DefaultControllerTest.php" tests="2" assertions="2" failures="0" errors="0" time="0.109521">
+      <testcase name="testHomepageResponseCodeOkay" class="App\Tests\Controller\DefaultControllerTest" file="/Users/matt/Documents/Books/symfony/php-symfony4-book-codes/part-testing/test05_webtest2/tests/Controller/DefaultControllerTest.php" line="10" assertions="1" time="0.102191"/>
+      <testcase name="testHomepageContentContainsHelloWorld" class="App\Tests\Controller\DefaultControllerTest" file="/Users/matt/Documents/Books/symfony/php-symfony4-book-codes/part-testing/test05_webtest2/tests/Controller/DefaultControllerTest.php" line="26" assertions="1" time="0.007330"/>
+    </testsuite>
+    <testsuite name="App\Test\SimpleTest" file="/Users/matt/Documents/Books/symfony/php-symfony4-book-codes/part-testing/test05_webtest2/tests/SimpleTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.001056">
+      <testcase name="testOnePlusOneEqualsTwo" class="App\Test\SimpleTest" file="/Users/matt/Documents/Books/symfony/php-symfony4-book-codes/part-testing/test05_webtest2/tests/SimpleTest.php" line="9" assertions="1" time="0.001056"/>
+    </testsuite>
+    <testsuite name="App\Util\Test\CalculatorTest" file="/Users/matt/Documents/Books/symfony/php-symfony4-book-codes/part-testing/test05_webtest2/tests/Util/CalculatorTest.php" tests="5" assertions="5" failures="0" errors="0" time="0.004283">
+      <testcase name="testCanCreateObject" class="App\Util\Test\CalculatorTest" file="/Users/matt/Documents/Books/symfony/php-symfony4-book-codes/part-testing/test05_webtest2/tests/Util/CalculatorTest.php" line="10" assertions="1" time="0.003172"/>
+      <testcase name="testAddOneAndOne" class="App\Util\Test\CalculatorTest" file="/Users/matt/Documents/Books/symfony/php-symfony4-book-codes/part-testing/test05_webtest2/tests/Util/CalculatorTest.php" line="21" assertions="1" time="0.000349"/>
+      <testsuite name="App\Util\Test\CalculatorTest::testAdditionsWithProvider" tests="3" assertions="3" failures="0" errors="0" time="0.000762">
+        <testcase name="testAdditionsWithProvider with data set #0" assertions="1" time="0.000286"/>
+        <testcase name="testAdditionsWithProvider with data set #1" assertions="1" time="0.000289"/>
+        <testcase name="testAdditionsWithProvider with data set #2" assertions="1" time="0.000187"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
